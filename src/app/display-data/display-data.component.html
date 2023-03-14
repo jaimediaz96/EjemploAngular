@@ -1,8 +1,8 @@
-<div>
-    <h1>Your Data</h1>
-<h2>User:</h2>
-<h3>{{ register.user }}</h3>
-<h2>Password:</h2>
-<h3>{{ register.password }}</h3>
-<button type="button" (click)="goBack()">Back</button>
+<div class="container">
+  <h1 class="title">Your Data</h1>
+  <h2 class="label">User:</h2>
+  <h3 class="data">{{ register.user }}</h3>
+  <h2 class="label">Password:</h2>
+  <h3 class="data">{{ register.password }}</h3>
+  <button class="reset" type="button" (click)="goBack()">Back</button>
 </div>

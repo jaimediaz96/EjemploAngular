@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.data {
+  color: green;
+  font-size: 1.6rem;
+  font-family: cursive;
+  padding-bottom: 1.5rem;
+}
+
+.reset {
+  margin-bottom: 30px;
+}
